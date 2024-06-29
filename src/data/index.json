@@ -2,50 +2,61 @@
     "skills": [
       {
         "id": "1",
-        "src": "./img/product-chain-1.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "src": "./img/science-data.png",
+        "title": "Data Science",
+        "description": ""
       },
       {
         "id": "2",
-        "src": "./img/tag-1.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "src": "./img/product-management.png",
+        "title": "Project Management",
+        "description": ""
       },
       {
         "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "src": "./img/cloud-computing.png",
+        "title": "Cloud Computing",
+        "description": ""
       },
       {
         "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "src": "./img/web-development.png",
+        "title": "Web Development",
+        "description": ""
       }
     ],
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/aesonline-ut.png",
+        "title": "Automated Essay Scoring",
+        "description": "The collaborative research project to implement a system addressing efficiency issues in scoring essay assignments. The system was created using a machine learning model and deployed on Streamlit with a relational SQL Database.",
+        "link": "See Further",
+        "url": "https://aesonline-ut.com/"
       },
       {
         "id": "2",
-        "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/nias-possi.png",
+        "title": "NIAS POSSI",
+        "description": "This project aimed to facilitate the Persatuan Olahraga Selam Seluruh Indonesia (POSSI) to track their member using ID Card called Nomor Induk Atlet Selam (NIAS) and records the participant of competition held by that organization",
+        "link": "See Further",
+        "url": "https://niaspossi.id/"
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "src": "./img/information-retrieval.png",
+        "title": "Implementation of BM25 Algorithm",
+        "description": "This work was made as a part of the final project in Information Retrieval Course. The purpose of this project was mainly to develop ranked retrieval system based on medical records database",
+        "link": "See Further",
+        "url": "https://colab.research.google.com/drive/1zOTitP94HWHdh-XBS_JFs6q20o7b8uNv?usp=sharing"
+      },
+      {
+        "id": "4",
+        "src": "./img/object-detection.png",
+        "title": "3D Volume Estimation using Numerical Method",
+        "description": "The main goal of this project is to perform volume estimation given particular image of three-dimensional shape using the principle of Numerical Method while minimizing the usage of third-party libraries",
+        "link": "See Further",
+        "url": "https://colab.research.google.com/drive/1aUD4vzB958kMeZGb7QyCDBmKkgzZpRqn"
       }
     ]
 }

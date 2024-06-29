@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+      William's Portfolio 💼 
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -61,20 +61,7 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
+    
           <li>
             <Link
               onClick={closeMenu}
@@ -90,20 +77,53 @@ function Navbar() {
             </Link>
           </li>
           
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Portfolio
+            </Link>
+          </li>
+
+          <li>
+          <Link
+            onClick={closeMenu}
+            activeClass="navbar--active-content"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="mySkills"
+            className="navbar--content"
+          >
+         Skills
+         </Link>
+          </li>
+
+          <li>
+          <Link
+            onClick={closeMenu}
+            activeClass="navbar--active-content"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="Contact"
+            className="navbar--content"
+          >
+        Contact 
+      </Link>
+          </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
+    
     </nav>
   );
 }
